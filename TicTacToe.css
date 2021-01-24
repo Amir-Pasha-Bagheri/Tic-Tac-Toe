@@ -1,0 +1,88 @@
+table, tr, td {
+    border: 5px solid black;
+    border-collapse: collapse;
+    cursor: pointer;
+    transition: 0.6s;
+    table-layout: fixed;
+}
+td{
+    background-color: rgba(218, 165, 32, 0.384);
+}
+#table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;    
+    margin-top: 200px;
+    width: 480px;
+    height: 480px;
+}
+td:hover{
+    box-shadow: 5px;
+    border-bottom-color: rgb(152, 98, 199);
+    background-color: goldenrod;
+}
+.O{
+    background-color: rgba(10, 92, 10, 0.589);
+}
+.O:hover{
+    background-color: rgb(11, 97, 11) ;
+}
+.X{
+    background-color: rgba(233, 85, 85, 0.87);
+}
+.X:hover{
+    background-color: rgb(179, 45, 45);
+}
+.oAtFirst{
+    float: right;
+    margin-top: -125px;
+    background-color: cornsilk;
+    border: 10px cornsilk solid;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.xAtFirst{
+    float: left;
+    margin-top: -125px;
+    background-color: cornsilk;
+    border: 10px cornsilk solid;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.oTurn{
+    width: 260px;
+    height: 43px;
+    font-size: 24px;
+    padding-left: 10px;
+    float: right;
+    margin-top: -125px;
+    background-color: rgb(11, 97, 11) ;
+    border: 10px rgb(11, 97, 11) ;
+    border-radius: 15px;
+    padding-top: 11px;
+    transition: 0.5s;
+}
+.xTurn{
+    width: 260px;
+    height: 43px;
+    font-size: 24px;
+    padding-left: 10px;    
+    float: left;
+    margin-top: -125px;
+    background-color: rgb(179, 45, 45);
+    border: 10px rgb(179, 45, 45);
+    border-radius: 15px;
+    padding-top: 11px;
+    transition: 0.5s;
+}
+.result{
+    text-align: center;
+    margin-top: -524px;
+}
+.resultShowed{
+    text-align: center;
+    margin-top: -524px;
+    color: darkolivegreen;
+    font-weight: bold;
+    font-size:xx-large
+}
